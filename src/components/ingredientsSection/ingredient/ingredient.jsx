@@ -1,15 +1,19 @@
 import React from "react"
 
-import "./ingredients.styles.css"
+import "./ingredient.styles.css"
 
 const Ingredient = (props) => {
     return (
         <div className="ingredient">
-            <img src={props.ingInfo.imgSrc} onClick={() => props.addIngredient(props.ingInfo)}/>
+            <img src={props.ing.imgSrc} onClick={() => props.addIngredient(props.ing)}/>
         </div>
     )
 }
 
 export default Ingredient
+
+
+
+
 
 
